@@ -62,6 +62,308 @@ const mockLessons = [
         badge: "CSS Architect",
         author: "@designpro",
     },
+    {
+        id: 4,
+        title: "JavaScript Async/Await",
+        description: "Modern asynchronous programming in JavaScript",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+        duration: 95,
+        quiz: {
+            question: "What does the await keyword do?",
+            options: [
+                "Pauses function execution",
+                "Creates a new thread",
+                "Throws an error",
+                "Returns immediately",
+            ],
+            correctAnswer: 0,
+        },
+        badge: "JS Ninja",
+        author: "@javascriptwizard",
+    },
+    {
+        id: 5,
+        title: "Django ORM Fundamentals",
+        description: "Database operations with Django's ORM",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+        duration: 110,
+        quiz: {
+            question: "Which method executes a QuerySet?",
+            options: ["filter()", "all()", "get()", "values()"],
+            correctAnswer: 2,
+        },
+        badge: "Django Master",
+        author: "@pythondjango",
+    },
+    {
+        id: 6,
+        title: "Git Branching Strategies",
+        description: "Effective version control workflows",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+        duration: 85,
+        quiz: {
+            question: "What's the purpose of git rebase?",
+            options: [
+                "To delete branches",
+                "To rewrite commit history",
+                "To merge branches",
+                "To create tags",
+            ],
+            correctAnswer: 1,
+        },
+        badge: "Version Control Pro",
+        author: "@gitguru",
+    },
+    {
+        id: 7,
+        title: "TypeScript Interfaces",
+        description: "Strong typing for JavaScript applications",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+        duration: 100,
+        quiz: {
+            question: "What's the main benefit of TypeScript interfaces?",
+            options: [
+                "Runtime performance",
+                "Code documentation",
+                "Type safety",
+                "Smaller bundle size",
+            ],
+            correctAnswer: 2,
+        },
+        badge: "TypeScript Expert",
+        author: "@typescriptking",
+    },
+    {
+        id: 8,
+        title: "Node.js REST API Design",
+        description: "Build scalable backend services",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+        duration: 135,
+        quiz: {
+            question: "Which HTTP method is typically used for updates?",
+            options: ["GET", "POST", "PUT", "DELETE"],
+            correctAnswer: 2,
+        },
+        badge: "Backend Engineer",
+        author: "@nodehero",
+    },
+    {
+        id: 9,
+        title: "Vue.js Component Lifecycle",
+        description: "Understand Vue's component hooks",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4",
+        duration: 80,
+        quiz: {
+            question: "Which hook runs after the component is mounted?",
+            options: ["created", "beforeMount", "mounted", "updated"],
+            correctAnswer: 2,
+        },
+        badge: "Vue Specialist",
+        author: "@vueartist",
+    },
+    {
+        id: 10,
+        title: "Docker Containerization",
+        description: "Package and deploy applications",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+        duration: 115,
+        quiz: {
+            question: "What's the difference between an image and a container?",
+            options: [
+                "Images run code, containers are blueprints",
+                "Containers are running instances of images",
+                "Images are smaller than containers",
+                "There is no difference",
+            ],
+            correctAnswer: 1,
+        },
+        badge: "DevOps Engineer",
+        author: "@dockerwhale",
+    },
+    {
+        id: 11,
+        title: "MongoDB Aggregation Framework",
+        description: "Advanced data processing in MongoDB",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4",
+        duration: 125,
+        quiz: {
+            question: "Which aggregation stage filters documents?",
+            options: ["$project", "$match", "$group", "$sort"],
+            correctAnswer: 1,
+        },
+        badge: "Database Wizard",
+        author: "@mongodbrocks",
+    },
+    {
+        id: 12,
+        title: "AWS Lambda Basics",
+        description: "Serverless computing with AWS",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4",
+        duration: 95,
+        quiz: {
+            question:
+                "What's the maximum execution time for a Lambda function?",
+            options: ["1 minute", "5 minutes", "15 minutes", "1 hour"],
+            correctAnswer: 2,
+        },
+        badge: "Cloud Architect",
+        author: "@awsmaster",
+    },
+    {
+        id: 13,
+        title: "GraphQL Queries and Mutations",
+        description: "Modern API query language",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4",
+        duration: 105,
+        quiz: {
+            question: "Which operation modifies server-side data?",
+            options: ["Query", "Mutation", "Subscription", "Fragment"],
+            correctAnswer: 1,
+        },
+        badge: "API Specialist",
+        author: "@graphqlpro",
+    },
+    {
+        id: 14,
+        title: "Python Data Analysis with Pandas",
+        description: "Data manipulation and analysis",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+        duration: 140,
+        quiz: {
+            question: "What does the pandas read_csv() function return?",
+            options: ["A list", "A dictionary", "A DataFrame", "A numpy array"],
+            correctAnswer: 2,
+        },
+        badge: "Data Scientist",
+        author: "@datapandas",
+    },
+    {
+        id: 15,
+        title: "Flask Web Development",
+        description: "Lightweight Python web framework",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+        duration: 90,
+        quiz: {
+            question: "How do you define a route in Flask?",
+            options: [
+                "@app.get()",
+                "@route()",
+                "@app.route()",
+                "@flask.route()",
+            ],
+            correctAnswer: 2,
+        },
+        badge: "Web Developer",
+        author: "@flaskenthusiast",
+    },
+    {
+        id: 16,
+        title: "Responsive Web Design Principles",
+        description: "Design for all devices",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+        duration: 85,
+        quiz: {
+            question: "What's the purpose of a media query?",
+            options: [
+                "To play media files",
+                "To apply styles based on device characteristics",
+                "To query a media database",
+                "To optimize images",
+            ],
+            correctAnswer: 1,
+        },
+        badge: "UI/UX Designer",
+        author: "@responsivequeen",
+    },
+    {
+        id: 17,
+        title: "Redux State Management",
+        description: "Predictable state container for JavaScript apps",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+        duration: 110,
+        quiz: {
+            question: "Where is the application state stored in Redux?",
+            options: [
+                "In components",
+                "In the store",
+                "In actions",
+                "In reducers",
+            ],
+            correctAnswer: 1,
+        },
+        badge: "State Management Pro",
+        author: "@reduxmaster",
+    },
+    {
+        id: 18,
+        title: "Web Security Essentials",
+        description: "Protect your web applications",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4",
+        duration: 120,
+        quiz: {
+            question: "Which of these helps prevent XSS attacks?",
+            options: ["Input validation", "HTTPS", "Rate limiting", "CORS"],
+            correctAnswer: 0,
+        },
+        badge: "Security Expert",
+        author: "@securityguard",
+    },
+    {
+        id: 19,
+        title: "Next.js Server-Side Rendering",
+        description: "React framework for production",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+        duration: 95,
+        quiz: {
+            question: "What's the main benefit of SSR in Next.js?",
+            options: [
+                "Better SEO",
+                "Smaller bundle size",
+                "Faster client-side navigation",
+                "Easier state management",
+            ],
+            correctAnswer: 0,
+        },
+        badge: "React Framework Specialist",
+        author: "@nextjsdev",
+    },
+    {
+        id: 20,
+        title: "Machine Learning Basics",
+        description: "Introduction to ML concepts",
+        videoUrl:
+            "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4",
+        duration: 150,
+        quiz: {
+            question:
+                "What's the difference between supervised and unsupervised learning?",
+            options: [
+                "Supervised uses labeled data",
+                "Unsupervised requires more compute power",
+                "Supervised is always better",
+                "There is no difference",
+            ],
+            correctAnswer: 0,
+        },
+        badge: "ML Beginner",
+        author: "@mlenthusiast",
+    },
 ];
 
 const Feed = () => {
@@ -137,38 +439,6 @@ const Feed = () => {
                         )}
                         isMobileFullscreen={true}
                     />
-                </div>
-
-                {/* Mobile Navigation Arrows */}
-                <div className="fixed right-4 top-1/2 -translate-y-1/2 z-40 flex flex-col space-y-4">
-                    <Button
-                        onClick={prevLesson}
-                        disabled={currentLesson === 0}
-                        className="bg-black/50 hover:bg-black/70 text-white backdrop-blur-sm rounded-full w-12 h-12 p-0"
-                    >
-                        <ArrowUp className="w-5 h-5" />
-                    </Button>
-                    <Button
-                        onClick={nextLesson}
-                        disabled={currentLesson === mockLessons.length - 1}
-                        className="bg-black/50 hover:bg-black/70 text-white backdrop-blur-sm rounded-full w-12 h-12 p-0"
-                    >
-                        <ArrowDown className="w-5 h-5" />
-                    </Button>
-                </div>
-
-                {/* Mobile Progress Dots */}
-                <div className="fixed bottom-20 left-1/2 -translate-x-1/2 z-40 flex space-x-2">
-                    {mockLessons.map((_, index) => (
-                        <div
-                            key={index}
-                            className={`w-2 h-2 rounded-full transition-colors ${
-                                index === currentLesson
-                                    ? "bg-white"
-                                    : "bg-white/40"
-                            }`}
-                        />
-                    ))}
                 </div>
             </div>
 
